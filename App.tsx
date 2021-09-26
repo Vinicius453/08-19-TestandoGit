@@ -31,7 +31,12 @@ const LinksImportantes = ()=>{
 
 const stylesLinkImportantes = StyleSheet.create({
   container:{
-    flex: 1,
+    flexDirection: "row",
+    justifyContent:"space-between",
+    paddingHorizontal:40,
+    paddingVertical:10,
+    borderBottomColor:"red",
+    borderBottomWidth:1,
 
   }
 });
@@ -62,7 +67,6 @@ export default function App() {
                     }>
                 </Image>
           </View>
-          <Text>Hello World!</Text>
           <LinksImportantes />
           <StatusBar style="auto"  />
       </View>
