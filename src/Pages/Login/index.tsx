@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
         //marginTop: -80,
     },
     texto:{
-        fontSize: 60,
+        fontSize: 50,
         color: "#ffffff",
         fontWeight:'bold',
         marginLeft: 10,
