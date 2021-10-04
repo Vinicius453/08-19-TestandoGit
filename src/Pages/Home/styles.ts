@@ -61,7 +61,6 @@ export const styles = StyleSheet.create({
     conteudoFacebook:{
         flex:1,
         justifyContent:'flex-end',
-        
     },
     meubotaoTexto:{
         color:"#F5FFFF",
